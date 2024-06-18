@@ -1,0 +1,15 @@
+{
+  "name": "blackbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "submodule":"git submodule update --init",
+    "sub_module_pull": "cd src && git pull origin main",
+    "exe_main":"node index.js"
+
+  },
+  "author": "",
+  "license": "ISC"
+}
